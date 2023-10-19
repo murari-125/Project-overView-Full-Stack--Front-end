@@ -3,6 +3,7 @@ import GalleryView from "./components/GalleryView";
 import SearchBar from "./components/SearchBar";
 import loadingGif from "./assets/loadingGif.gif";
 
+
 const App = () => {
   const [projects, setProjects] = useState([]);
   const [searchInput, setSearchInput] = useState();
