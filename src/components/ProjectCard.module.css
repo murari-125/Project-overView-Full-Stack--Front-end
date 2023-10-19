@@ -1,0 +1,43 @@
+/* ProjectCard.module.css */
+
+.projectCard {
+  box-shadow: 0 0 10px #be1adb;
+  transition: transform 0.3s;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #20202b;
+  color: white;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.projectCard:hover {
+  transform: scale(1.05);
+}
+
+.projectDetails {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the title */
+  text-align: left; /* Align subtitles and values to the left */
+}
+
+.projectTitle {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.desc {
+  font-weight: bold;
+  color: #c0b9b9;
+
+  align-self: flex-start;
+}
+
+.label {
+  align-self: flex-start;
+}
